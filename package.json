@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/searchBuilder.bootstrap.d.ts",
+            "style": "./css/searchBuilder.bootstrap.css",
             "import": "./js/searchBuilder.bootstrap.mjs",
-            "default": "./js/searchBuilder.bootstrap.mjs",
-            "require": "./js/searchBuilder.bootstrap.js"
+            "require": "./js/searchBuilder.bootstrap.js",
+            "default": "./js/searchBuilder.bootstrap.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
